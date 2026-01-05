@@ -1,0 +1,839 @@
+/* navbar starts here */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(225, 225, 225);
+    max-width: 1260px;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 50px;
+    overflow: hidden;
+    padding: 0 30px;
+
+
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+
+
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+
+
+}
+
+.nav-list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    /* border: 3px solid blue; */
+    list-style: none;
+    font-size: 30px;
+    color: gray;
+    padding: 20px;
+}
+
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* border: 2px solid black; */
+
+
+
+}
+
+
+.search-icon {
+    background-color: rgb(224, 221, 221);
+    border-radius: 50%;
+    padding: 17px;
+
+}
+
+.search-icon i {
+    font-size: 30px;
+}
+
+
+.icon button {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+/* <!-- navbar finish here --> */
+
+
+/* <!-- hero section starts here --> */
+
+.hero-photo {
+    background-image: url("https://cdn.shopify.com/s/files/1/1186/5476/files/LIFESTYLE_2000x2000_48e752d7-2561-4472-831d-f164a3ea7405_1024x1024.jpg?v=1565717897");
+    height: 600px;
+    max-width: 1260px;
+    padding: 0 16px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+
+}
+
+.hero-text {
+    /* border: 10px solid red; */
+    text-align: center;
+    max-width: 700px;
+    /* z-index: 1; */
+
+}
+
+.hero-text h1 {
+    color: white;
+    font-size: 60px;
+    margin: 0;
+}
+
+
+.hero-text p {
+    color: white;
+    font-size: large;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+
+.hero-text button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 900;
+
+
+}
+
+.helper-div {
+    height: 600px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 50%;
+    z-index: -1;
+
+
+}
+
+
+
+/* hero section finis here */
+
+
+
+
+
+/* explore section starts  */
+
+
+.explore-section {
+    display: flex;
+    /* border: 1px solid red; */
+    max-width: 1260px;
+    margin: 0 auto;
+    gap: 240px;
+    align-items: end;
+    background-color: lightblue;
+    padding: 10px 16px;
+    border-radius: 15px;
+    margin-top: 10px;
+
+
+
+}
+
+.explore {
+    /* border: 4px solid black; */
+    width: 40%;
+
+
+
+
+}
+
+.badge {
+    background-color: orange;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+.explore h1 {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.explore p {
+    color: gray;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.see-more {
+    background-color: lightblue;
+    font-size: 16px;
+    font-weight: 100;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.food-routine {
+    /* border: 4px solid blueviolet; */
+    width: 60%;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.beak-fast {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(98, 97, 97);
+    padding: 15px 10px;
+    font-size: 24px;
+    /* margin-top: 40px; */
+}
+
+/* explore section finishes here */
+
+
+
+
+/* slider starts here */
+.slider-container {
+    max-width: 1260px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+
+}
+
+
+
+.slider-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid rebeccapurple; */
+    margin-top: 20px;
+
+}
+
+
+
+
+.slider-button {
+    display: flex;
+    gap: 10px;
+}
+
+
+.left-angel {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.left-angel i {
+    font-size: 18px;
+}
+
+.right-angel {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.right-angel i {
+    font-size: 18px;
+}
+
+
+
+
+
+.swiper {
+    width: 100%;
+
+    margin-top: 40px;
+
+    /* border: 2px solid red; */
+}
+
+
+
+
+
+.silder-image {
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* border: 10px solid red; */
+
+
+}
+
+.silder-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.slider-text {
+    /* border: 4px solid rgb(222, 222, 92); */
+    padding: 18px;
+}
+
+.slider-text p {
+    color: gray;
+}
+
+
+.prepare-time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prepare-time p {
+    color: black;
+    font-weight: bold;
+}
+
+
+.prepare-time button {
+    border-radius: 30px;
+    padding: 0 30px;
+    font-size: 18px;
+    background-color: white;
+
+}
+
+/* slider finishes here */
+
+
+
+/* recipe section start here     */
+.recipe-section {
+    max-width: 1260px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.recipe-button {
+    background-color: orange;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+
+.recipe-text {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.recipe-section h1 {
+    font-size: 50px;
+    margin: 0;
+
+    text-align: center;
+
+}
+
+
+
+
+.recipe-section p {
+    color: gray;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+
+
+}
+
+
+.all-recipe {
+    margin-bottom: 70px;
+}
+
+
+
+
+.all-recipe button {
+    border-radius: 10px;
+    padding: 6px 13px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+
+}
+
+/* recipe section finish here */
+
+
+/* all-menu section start here */
+
+.menu-wraping {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    max-width: 1260px;
+    margin: 0 auto;
+
+}
+
+
+
+.all-menu {
+    /* max-width: 1260px; */
+    /* margin: 0 auto; */
+    /* border: 2px solid red; */
+    box-shadow: 0.5px 2px 10px rgb(190, 188, 188);
+    border-radius: 18px;
+
+    overflow: hidden;
+
+}
+
+.all-menu-image {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.all-menu-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.all-menu-text {
+    padding: 20px;
+}
+
+
+.all-menu h3 {
+    /* max-width: 400px; */
+    margin: 0;
+
+}
+
+
+.all-menu-text p {
+    /* max-width: 450px; */
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.time-to-ready {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.time-to-ready p {
+    margin: 0;
+    font-size: 16px;
+    color: black;
+
+}
+
+.time-to-ready button {
+    border-radius: 20px;
+    padding: 10px 30px;
+    border: none;
+    border: 1px solid gray;
+}
+
+/* all-menu section finish here  */
+
+/* about us section starts here  */
+
+.about-us {
+    max-width: 1260px;
+    margin: 0 auto;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr;  */
+    overflow: hidden;
+
+}
+
+.about-us-text {
+    border: 2px solid black;
+    width: 300px;
+}
+
+
+.about-us-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.about-us-text p {
+    color: gray;
+}
+
+.about-us-read-more {
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+
+.greens {
+    border: 10px solid green;
+    width: 550px;
+    height: 400px;
+    overflow: hidden;
+
+}
+
+.greens img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cooking-man {
+    border: 3px solid blue;
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+    grid-row: span 2;
+
+}
+
+.cooking-man img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.cooking {
+    border: 3px solid yellow;
+
+    height: 200px;
+    width: 500px;
+    overflow: hidden;
+    grid-column: span 2;
+}
+
+.cooking img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* about us section finish here */
+
+/* subscribe section starts here */
+
+.subscribe-section {
+    border: 1px solid rgb(68, 29, 80);
+    max-width: 1260px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: rgb(241, 99, 67);
+    border-radius: 20px;
+    padding: 50px 16px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+
+
+}
+
+
+.subscribe-section-text {
+    /* border: 2px solid red; */
+    text-align: center;
+    max-width: 700px;
+
+
+
+}
+
+.subscribe-section h1 {
+    margin: 0;
+    font-size: 55px;
+}
+
+
+
+
+.email-box {
+    border: 1px solid gray;
+    padding: 10px 39px;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+
+}
+
+.email-box input {
+    border: none;
+    padding: 15px 29px;
+    outline: none;
+    font-size: 19px;
+}
+
+.email-box button {
+    background-color: black;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+
+/* <button class="subscribe"><input type="text" placeholder="email-address" class="email"><span class="span-tag">SUBSCRIBE</span></button>.subscribe { */
+
+
+
+
+
+
+
+
+
+
+/* subscribe section finish here */
+/* about us section starts here  */
+
+.footer-wraper {
+    background-color: black;
+    max-width: 1260px;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 20px;
+    padding: 0 16px;
+}
+
+.footer {
+
+    /* border: 2px solid blue; */
+    max-width: 1260px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+
+}
+
+
+
+.footer-logo {
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+.footer-logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.footer-navigate {
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 20px;
+
+}
+
+.footer-icons {
+    /* border: 2px solid rgb(209, 146, 21); */
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+    color: white;
+
+}
+
+
+.border {
+    border: 1px solid rgb(217, 206, 206);
+    margin-bottom: 20px;
+    color: rgb(69, 68, 68);
+    margin-top: 20px;
+
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+}
+
+
+
+/* about us section finish here  */
+
+
+
+
+
+@media (max-width:1024px) {
+    .navbar {
+        flex-direction: column;
+        align-items: start;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: start;
+    }
+
+
+}
+
+
+
+@media (max-width:768px) {
+    .explore-section {
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+
+    }
+
+    .explore {
+        width: 100%;
+    }
+
+    .food-routine {
+        width: 100%;
+
+    }
+
+    .menu-wraping {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+    }
+
+    .footer-navigate {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    /* .footer-icons {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    } */
+}
+
+
+
+@media (max-width:640px) {
+    .slider-section {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+    }
+
+    .time-to-ready {
+        flex-direction: column;
+        align-items: start;
+    }
+}
+
+
+
+
+
+
+@media (max-width:480px) {
+    .hero-text h1 {
+        font-size: 30px;
+    }
+
+    /* all-menu section start here  */
+    .menu-wraping {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+
+    /* all-menu section finish heres */
+}
